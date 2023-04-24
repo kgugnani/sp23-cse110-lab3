@@ -100,3 +100,27 @@ video{
         font-family: 'Bruno Ace SC', cursive;
         src:url(https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap);
       }
+
+section ol{
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 20px;
+    color:rgb(95, 1, 95);
+}
+
+nav > a{
+    border-top: 5px solid red;
+}
+
+p ~ span{
+    padding:5px;
+}
+
+h2 + ol{
+    padding-top:5px;
+}
+
+section + h2[id = "play"]{
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 20px;
+}
+
