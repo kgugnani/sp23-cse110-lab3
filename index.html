@@ -2,14 +2,30 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap" rel="stylesheet">
     <title>Meeting Minutes Week 6</title>
-    <link rel="icon" href="CSE110_Lab2/favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* styles for h1*/
+        h1 {
+            font-family: 'Bruno Ace SC', cursive;
+            color: rgb(138, 3, 138);
+            padding-left: 540px;
+            border-style: solid;
+            border-color: purple;
+            border-width: 5px;
+            border-radius: 5px;
+            margin: 3mm 2vi 2rem 1em; 
+        }
+    </style>
   </head>
   <body>
     <header>
         <h1>Meeting Minutes Week 6</h1>
         <h2>Brainstorm Session</h2>
-        <h3>4/16/3054</h3>
+        <h3 style = "color: hsl(300, 100%, 50%)">4/16/3054</h3>
     </header>
     <main>
         <nav>
@@ -29,8 +45,8 @@
         </section>
         <hr>
         <section>
-            <h2>Agenda</h2>
-            <ol>
+            <h2 style = "color: #776c6c;">Agenda</h2>
+            <ol class = "first">
                 <li>Come up with ideas</li>
                 <li>Vibe</li>
                 <li>Finish the project</li>
@@ -47,8 +63,8 @@
             <p>We brushed up on our <a href="https://www.w3schools.com/tags/tag_a.asp">HTML</a> knowledge using <a href="https://www.w3schools.com/tags/tag_a.asp">W3Schools </a></p>
             <p>Oh no, the line <br> broke :/</p>
         </div>
-        <section>
-            <h2>New Business</h2>
+        <section id = "flexs">
+            <h2 class="stir">New Business</h2>
             <img src="lol.png" alt="Software Engineering Diagram" width="450" height="400">
             <p>In today's meeting we discussed the above graphic and the different parts of our project. We will be splitting up the roles based on the different roles above.</p>
             <p>Here's a video about some potential ideas:</p>
@@ -64,7 +80,7 @@
                 <p>That's all we did this week!</p>
             </details>
         </section>
-        <form>
+        <form id="grids">
             <fieldset>
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name"><br><br>
